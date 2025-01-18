@@ -8,7 +8,7 @@ jobs:
       - name: Job details
         run: |
           echo "Current job is running on ${{runner.os}} hosted at GitHub"
-          echo "The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+          echo "The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
 
       - name: Cloning code into the Job
         uses: actions/checkout@v4
