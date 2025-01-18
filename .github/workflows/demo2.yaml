@@ -16,7 +16,7 @@ jobs:
       - name: Starting the services
         run: |
           touch .env
-          echo examle.env > .env
+          echo example.env > .env
           docker compose up
           echo "Services are running"
 
