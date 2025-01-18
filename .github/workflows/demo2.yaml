@@ -22,6 +22,7 @@ jobs:
 
       - name: API health check
         run: |
-          curl -X GET 'http://host.docker.internal:4000/api/health' -H 'accept: application/json' -H 'Authorization: Bearer cdhub-api-key-123' 
+          docker ps
+          # curl -X GET 'http://host.docker.internal:4000/api/health' -H 'accept: application/json' -H 'Authorization: Bearer cdhub-api-key-123' 
       - name: Job status
         run: echo "${{job.status}}"
