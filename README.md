@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/Ykhassan/CI-test/graph/badge.svg?token=XHO80FTDPH)](https://codecov.io/gh/Ykhassan/CI-test)
 # Project CD-Hub
 
 ## Services
