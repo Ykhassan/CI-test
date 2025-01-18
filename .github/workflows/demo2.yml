@@ -11,7 +11,7 @@ jobs:
           echo "The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
 
       - name: Cloning code into the Job
-        uses: actions/checkout@v4a
+        uses: actions/checkout@v4
 
       - name: Starting the services
         run: |
