@@ -16,8 +16,9 @@ jobs:
       - name: Starting the services
         run: |
           touch .env
+          echo .env
           echo example.env > .env
-          docker compose up
+          # docker compose up
           echo "Services are running"
 
       - name: API health check
