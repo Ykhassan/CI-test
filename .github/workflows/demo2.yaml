@@ -22,11 +22,7 @@ jobs:
 
       - name: API health check
         run: |
-          curl -X 'GET' \
-          'http://localhost:4000/api/health' \
-          -H 'accept: application/json' \
-          -H 'Authorization: Bearer cdhub-api-key-123' 
-          -w '\nHTTP Status Code: %{http_code}\n'
+          curl -X GET 'http://localhost:4000/api/health' -H 'accept: application/json' -H 'Authorization: Bearer cdhub-api-key-123' -w "\nHTTP Status Code: %{http_code}\n"
           docker compose down
         
       - name: Job status
