@@ -15,7 +15,7 @@ jobs:
 
       - name: Starting the services
         run: |
-          docker compose-up
+          docker compose up
           echo "Services are running"
 
       - name: API health check
