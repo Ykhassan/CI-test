@@ -1,6 +1,9 @@
-name: Test API
-run-name: API Test by ${{github.actor}}
-on: [push]
+name: Endpoint test
+run-name: Testing ${{github.actor}} code submission 
+on: 
+  push:
+    branches:
+      - backend-updates
 jobs:
   Run-API:
     runs-on: ubuntu-latest
