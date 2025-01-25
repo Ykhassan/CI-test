@@ -1,4 +1,4 @@
-##API ![Unit test workflow status](https://github.com/Ykhassan/CI-test/actions/workflows/demo2.yaml/badge.svg)
+## API ![Unit test workflow status](https://github.com/Ykhassan/CI-test/actions/workflows/demo2.yaml/badge.svg)
 [![codecov](https://codecov.io/gh/Ykhassan/CI-test/graph/badge.svg?token=XHO80FTDPH)](https://codecov.io/gh/Ykhassan/CI-test)
 
 # Project CD-Hub
